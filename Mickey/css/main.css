@@ -1,0 +1,130 @@
+
+    * { margin: 0px; padding: 0px; }
+    
+    /* make the background of the page black */
+    body { background: black;}
+    
+    /* mickey canvas */
+    #canvas {
+      width: 400px;
+      height: 600px;
+      position: relative;
+      background: white;
+    }
+    
+    /* shapes */
+    /* make all divs inside of #canvas a circle */
+    #canvas div{
+      border-radius: 200px;
+      position: absolute;
+      transition: all 500ms ease;
+    }
+    
+    #canvas:hover div{ 
+    top: 0px;
+    left:0px;}
+    /* 
+    adjust the top and left 
+    properties of the elements
+    to position them 
+    */
+    
+    #ear-1 {
+      width: 100px;
+      height: 100px;
+      background: black;
+    
+     
+      top: 40px;
+      left: 80px;
+      
+    }
+    
+    #ear-2 {
+      width: 100px;
+      height: 100px;
+      background: black;
+      top:3px;
+      left:200px;
+    }
+    
+    #head {
+      width: 140px;
+      height: 140px;
+      background: beige;
+      top:100px;
+      left:150px;
+    }
+    
+    #eye-1 {
+      width: 25px;
+      height: 25px;
+      background: black;
+      top:125px;
+      left:265px;
+    }
+    
+    #eye-2 {
+      width: 25px;
+      height: 25px;
+      background: black;
+      top:125px;
+      left:220px;
+    }
+    
+    #nose {
+      width: 45px;
+      height: 45px;
+      background: black;
+      top:150px;
+      right:100px;
+    }
+    
+    #mouth {
+      width: 35px;
+      height: 35px;
+      background: red;
+      top:190px;
+      left:200px;
+    }
+    
+    #body {
+      width: 160px;
+      height: 160px;
+      background: red;
+      right:40px;
+      top:250px;
+    }
+    
+    #button-1 {
+      width: 32px;
+      height: 32px;
+      background: black;
+      top:300px;
+      left:260px;
+    }
+    
+    #button-2 {
+      width: 32px;
+      height: 32px;
+      background: black;
+      top:280px;
+      left:310px;
+    }
+    
+    #foot-1 {
+      width: 150px;
+      height: 150px;
+      background: yellow;
+      top:450px;
+      right:0px;
+    }
+    
+    #foot-2 {
+      width: 150px;
+      height: 150px;
+      background: yellow;
+      top:400px;
+      left:30px;
+    }
+
