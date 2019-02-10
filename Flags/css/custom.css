@@ -1,0 +1,58 @@
+
+/* reset styles */
+* {
+        margin: 0px; padding: 0px;
+}
+
+/* make the background of the page black */
+body {
+        background: black;
+}
+
+/* flag canvas */
+#canvas {
+        width: 500px;
+        height: 300px;
+        position: relative;
+        background: white;
+        transition: all 500ms ease;
+    }
+    
+        
+
+/* shapes */
+
+.clip-me-circle {
+        width: 500px;
+        height: 300px; 
+        -webkit-clip-path: circle(11.6% at 50% 50%);
+        clip-path: circle(20% at 50% 50%);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        
+        z-index: 1;
+        animation: circle 3s alternate infinite;
+}
+
+.clip-me {
+        width: 500px;
+        height: 300px;  
+        -webkit-clip-path: polygon(90% 0, 100% 0, 100% 15%, 10% 100%, 0 100%, 0 85%);
+        clip-path: polygon(90% 0, 100% 0, 100% 15%, 10% 100%, 0 100%, 0 85%);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: #a81d37;
+}
+
+.clip-me1 {
+        width: 500px;
+        height: 300px;  
+        -webkit-clip-path: polygon(0 0, 10% 0, 100% 85%, 100% 100%, 90% 100%, 0 15%);
+        clip-path: polygon(0 0, 10% 0, 100% 85%, 100% 100%, 90% 100%, 0 15%);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        background: #a81d37;
+}
