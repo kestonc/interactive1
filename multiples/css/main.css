@@ -6,15 +6,14 @@ body {
 #desktop {
     color: white;
     display: block;
-          
-          flex-direction: column;
-          text-align: center;
+       
     color: #464646;
     margin: 80px;
 }
 img {width:100%;
     height: 50%;
     margin-top:0px;
+    position: relative;
 }
 
 #tablet,
@@ -45,6 +44,7 @@ img {width:100%;
     height: 50%;
     margin-top:0px;
     position: relative;
+    margin-top:60px;
 }
 }
 /* mobile */
@@ -58,7 +58,7 @@ img {width:100%;
     }
     img {width:100%;
     height: 50%;
-    margin-top:0px;}
+    margin-top:60px;}
     #desktop,
     #tablet,
     #print {
@@ -74,7 +74,9 @@ img {width:100%;
         display: inline;
         color: black;
     }
-
+img {width:100%;
+    height: 50%;
+    margin-top:0px;}
     #desktop,
     #tablet,
     #mobile {
