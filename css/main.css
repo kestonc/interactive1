@@ -8,8 +8,70 @@
     
     /* begin styles */
     
-   
-      
+      .colorful {
+      background: #f0ead6;
+      background-size: 1800% 1800%;
+      animation: invert 6s /*alternate*/forwards;
+    }
+    
+    @keyframes invert { 
+      0%{background:#f0ead6;}
+      /*  98%{background:#f0ead6;}*/
+      100%{background:#464646;}
+    }
+
+
+       .colorful1 {
+      color: #464646;
+      background-size: 1800% 1800%;
+      animation: invert1 6s ease-out forwards/* alternate*/;
+    }   
+ @keyframes invert1 { 
+      0%{color:#464646;}
+      100%{color:#f0ead6;}
+    }
+
+     .colorful2 {
+      color: white;
+      background-size: 1800% 1800%;
+      animation: invert2 6s /*alternate*/ forwards;
+    }  
+
+@keyframes invert2 { 
+      0%{color: white;}
+      100%{color:#464646;}
+    }
+
+
+
+
+  .colorful3 {
+      background: #464646;
+      background-size: 1800% 1800%;
+      animation: invert4 6s /*alternate infinite*/forwards;
+    }
+    
+ @keyframes invert4 { 
+      0%{background:#464646;}
+      100%{background:#f0ead6;}
+    }
+
+
+
+
+a.colorful1:hover {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
 body{ background: #f0ead6; 
 	}
 
@@ -25,7 +87,6 @@ padding-bottom:80px;}
 
     h1 {
     	color: white;
-    	background:#464646;
     font-family: 'Major Mono Display', monospace;
 font-size: 60px;
 text-align: center;
@@ -52,4 +113,18 @@ margin-bottom:30px;
 color: white;
 padding-top: 15px;
 font-size: 20px;}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
 
