@@ -109,7 +109,8 @@ margin-top:40px;
 margin-bottom:30px;
 }
 
-.desc{ margin-left: 250px; font-family: 'Raleway', sans-serif;
+.desc{ margin-left: 250px; 
+  font-family: 'Raleway', sans-serif;
 color: white;
 padding-top: 15px;
 font-size: 20px;}

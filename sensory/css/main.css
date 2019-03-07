@@ -7,36 +7,125 @@
     }
     
 
+body {
+  background: black;
+  }
 
-
-.bob{
-      
-      animation: rainbow1 10s alternate infinite;}
-
-
-body { background-image: url(../images/sensory.jpg);
+  .animation{background-image: url(../images/sensory.jpg);
   background-repeat: no-repeat;
-  background-position: right -60px bottom -60px;
-  height: 80%;
-  width: 80%;
-  background-position: 40% 40%;
-  animation: rainbow 10s alternate infinite;}
+  height: 100vh;
+  width: 100vw;
+  background-position: 40% 57%;
+  display: block;
+  }
+
+  .animation1{background-image: url(../images/sensory.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: 40% 57%;
+  animation: rainbow 8s forwards ease;
+  animation-delay:4s;
+  display: block;
+  }
+
+    .animation2{background-image: url(../images/sensory.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-position: 40% 57%;
+  animation: rainbow 8s forwards ease;
+  animation-delay: 4.1s;
+  display: block;
+  }
 
 
     @keyframes rainbow { 
-      0%{background-position:40% 40%;
+      0%{
+        background-position:40% 57%;
+        opacity: 1;
+
+      }
+      6%{opacity:0;}
+
+      25%{
+        background-position: 6% 65%;
+        opacity: 0.8;
       }
 
-      25%{background-position: 0% 50%;
+      40%{opacity: 0;}
+
+      50%{
+        background-position: 40% 25%;
+        opacity: 0.6;
       }
 
-      50%{background-position: 40% 40%;
+      55%{ opacity:0; }
+
+      75%{
+        background-position: 100% 70%;
+        opacity: 0.6;
       }
 
-      75%{background-position: 100% 50%;
-      }
-
-      100%{background-position: 40% 10%;
-       
+      100%{
+        background-position: 40% 100%;
+        opacity: 0;
       }
     }
+
+
+
+
+
+p{
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-weight:bold;
+  text-align: center;
+  font-size: 100px;
+  color: black;
+  margin-top: 375px;
+  margin-left: 600px;
+  padding: 20px;
+}
+
+
+p:hover {color: white;}
+
+h1{
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+  font-size: 100px;
+  color: black;
+  padding-top: 400px;
+}
+
+.goodbye{display: none;}
+
+  .animation3{
+    animation: fade 4s forwards;
+    color:black;
+  }
+
+
+
+@keyframes fade { 
+      0%{
+        opacity:1;
+        color:black;
+        }
+    
+
+      100%{
+        opacity: 0;
+        color: white;
+        
+      }
+    }
+
+
+
+
+
+
+
