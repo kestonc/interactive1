@@ -7,8 +7,8 @@ $('document').ready(function(){
 $('document').ready(function(){
   $('p').click(function(){
     $('#bob').addClass('animation2');  
-  });
-});
+ });
+}); 
 
 $('document').ready(function(){
   $('p').click(function(){
