@@ -239,7 +239,10 @@ document.getElementById('past').style.zIndex = -1;
   document.getElementById('hello').style.zIndex = 1;
   document.getElementById('hello1').style.zIndex = -1;
 
-  
+
+  document.getElementById('keston1').style.zIndex = 1;
+  document.getElementById('keston').style.zIndex = -1;
+
 
   document.getElementById('item-3').style.zIndex = -1;
   document.getElementById('item-1').style.zIndex = 1;
