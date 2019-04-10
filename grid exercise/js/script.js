@@ -198,6 +198,9 @@ document.getElementById('hello1').style.zIndex = 1;
   document.getElementById('keston').style.zIndex = 1;
   document.getElementById('keston1').style.zIndex = -1;
 
+  document.getElementById('colophon1').style.zIndex = 1;
+  document.getElementById('colophon').style.zIndex = -1;
+
   document.getElementById('item-3').style.zIndex = 1;
   document.getElementById('item-1').style.zIndex = -1;
 document.getElementById('item-7').style.zIndex = 1;
@@ -243,6 +246,8 @@ document.getElementById('past').style.zIndex = -1;
   document.getElementById('keston1').style.zIndex = 1;
   document.getElementById('keston').style.zIndex = -1;
 
+document.getElementById('colophon').style.zIndex = 1;
+  document.getElementById('colophon1').style.zIndex = -1;
 
   document.getElementById('item-3').style.zIndex = -1;
   document.getElementById('item-1').style.zIndex = 1;
@@ -287,7 +292,7 @@ function hello1() {
   document.getElementById('hello1').style.zIndex = -1;
 }
 
-//designed by...
+//description
 function keston1() {
   document.getElementById('keston').style.zIndex = 1;
   document.getElementById('keston1').style.zIndex = -1;
@@ -299,6 +304,15 @@ function keston() {
 
 
 
+//Designed by...
+function colophon() {
+  document.getElementById('colophon1').style.zIndex = 1;
+  document.getElementById('colophon').style.zIndex = -1;
+}
+function colophon1() {
+  document.getElementById('colophon').style.zIndex = 1;
+  document.getElementById('colophon1').style.zIndex = -1;
+}
 
 
 

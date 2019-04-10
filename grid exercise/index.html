@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +5,7 @@
   <meta name="description" content="YOUR DESCRIPTION HERE">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+
   <title>Keston's Grid</title>
 </head>
 <body>
@@ -22,11 +22,24 @@
   <div class="grid-item1" id="future" onclick="future()">
   	<h2> From the Future </h2>
   </div>
+
 <div class="grid-item1" id="past" onclick="past()">
   	<h2 class="revealed"> From the Past </h2>
   </div>
 
 
+  <div class="grid-item1" id="colophon" onclick="colophon()">
+  	<p class="questionbig"> ??? </p>
+  </div>
+
+
+<div class="grid-item1" id="colophon1" onclick="colophon1()">
+  	<p class="revealedsmall"> 
+  		Designed by: Keston Hinds Cruz<br>
+  		Type used: Futura, LCD_Solid<br>
+  		Year Created: 2019<br>
+  	</p>
+  </div>
 
 
 
@@ -290,14 +303,17 @@
 
 
 
-<div class="grid-container1">
+<div class="grid-container2">
 
   <div class="grid-item1" id="keston1" onclick="keston1()">
-  	<h3> Designed By: Keston Hinds Cruz </h3>
+  	<p class="questionbig"> ??? </p>
 
   </div>
   <div class="grid-item1" id="keston" onclick="keston()">
-  	<h3 class="revealed"> Designed By: Keston Hinds Cruz </h3>
+  	<p class="revealed">
+  		This website was created in order to show the <br>difference between how I remembered a website<br> (when I first started using it), to the present <br>day logo in 2019 over the span of 10 years.
+
+  	</p>
 
 
 
@@ -306,11 +322,9 @@
 
 </div>
 <br>
-<br>
-<br>
-
 
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/aos.js"></script>
 </body>
 </html>
