@@ -1,0 +1,568 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #ededed;
+}
+
+
+.container {
+	background: #2d2d2d;
+	overflow: auto;
+	display:inline-block;
+}
+
+.container1 {
+	background: #ededed;
+	overflow: auto;
+	display:inline-block;
+}
+
+.letter {
+	position: relative;
+	margin: 10px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 20px 20px 20px;
+	grid-template-rows: 20px 20px 20px;
+	grid-gap: 20px 20px;
+
+	background: #2d2d2d;
+	border-radius: 20px;
+	padding: 25px;
+}
+
+
+
+
+
+.letter1 {
+	position: relative;
+	margin: 30px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 60px 60px 60px;
+	grid-template-rows: 60px 60px 60px;
+	grid-gap: 60px 60px;
+
+	background: #2d2d2d;
+	border-radius: 60px;
+	padding: 25px;
+}
+
+.letter2 {
+	position: relative;
+	margin: 30px;
+
+	display: grid;
+	float: left;
+
+	grid-template-columns: 33% 33% 33%;
+	grid-template-rows: 100px 100px;
+	grid-gap: 10px 10px;
+
+	background: #2d2d2d;
+	border-radius: 60px;
+	padding: 25px;
+	padding-bottom: 30px;
+	justify-content: center;
+}
+
+
+p {
+color: white; 
+padding: 20px;
+line-height: 40px;
+font-size: 40px;
+font-weight:normal;
+font-style:normal;
+font-family: 'Gugi', cursive;
+}
+
+
+
+
+
+
+
+div.information {
+	background: #2d2d2d;
+	grid-column-start:1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+	align-items: center;
+  	justify-content: center;
+}
+
+div.empty{
+	background: #2d2d2d;
+}
+
+
+/* Diagonals */
+/* Letter B */
+div.diagonaltop{
+	width:73px;
+	height:20px;
+	transform:rotate(-45deg);
+	margin-top:-20px;
+	margin-left:-5px;
+}
+div.diagonalbot{
+	width:73px;
+	height:20px;
+	transform:rotate(45deg);
+  	float: right;
+  	margin-top: -20px;
+  	margin-right: -7px;
+}
+
+div.diagonaltop1{
+	width:219px;
+	height:60px;
+	transform:rotate(-45deg);
+	margin-top:-60px;
+	margin-left:-15px;
+}
+div.diagonalbot1{
+	width:219px;
+	height:60px;
+	transform:rotate(45deg);
+  	float: right;
+  	margin-top: -60px;
+  	margin-right: -21px;
+}
+
+
+
+
+
+/* Letter D */
+div.diagonaldbot{
+	width:73px;
+	height:20px;
+	transform:rotate(-45deg);
+	margin-top:-20px;
+	margin-left:34px;
+}
+div.diagonaldtop{
+	width:73px;
+	height:20px;
+	transform:rotate(45deg);
+  	float: left;
+  	margin-top: 20px;
+  	margin-left: 34px;
+}
+
+/* Letter K */
+div.diagonalktop{
+	width:73px;
+	height:20px;
+	transform:rotate(-45deg);
+	margin-top:-20px;
+	margin-left:34px;
+}
+div.diagonalkbot{
+	width:73px;
+	height:20px;
+	transform:rotate(45deg);
+  	float: left;
+  	margin-top: 20px;
+  	margin-left: 34px;
+}
+
+/* Letter M */
+div.diagonalmleft{
+	width:73px;
+	height:20px;
+	transform:rotate(-45deg);
+	margin-top:-20px;
+	margin-left:-7px;
+}
+div.diagonalmright{
+	width:73px;
+	height:20px;
+	transform:rotate(-135deg);
+  	float: left;
+  	margin-top: -21px;
+  	margin-left: -47px;
+}
+
+/* Letter N */
+div.diagonaln{
+	width:130px;
+	height:20px;
+	transform:rotate(45deg);
+	margin-top:40px;
+	margin-left:-15px;
+}
+
+/* Letter Q */
+div.diagonalq{
+	width:73px;
+	height:20px;
+	transform:rotate(45deg);
+  	float: left;
+  	margin-top: 19px;
+  	margin-left: -8px;
+}
+
+/* Letter R */
+div.diagonalr{
+	width:73px;
+	height:20px;
+	transform:rotate(45deg);
+  	float: left;
+  	margin-top: 19px;
+  	margin-left: -7px;
+}
+
+div.diagonalr1{
+	width:219px;
+	height:60px;
+	transform:rotate(45deg);
+  	float: left;
+  	margin-top: 57px;
+  	margin-left: -21px;
+}
+
+
+
+
+
+
+/* Letter V */
+div.diagonalvleft{
+	width:73px;
+	height:20px;
+	transform:rotate(-45deg);
+	margin-top:-20px;
+	margin-left:-7px;
+}
+div.diagonalvright{
+	width:73px;
+	height:20px;
+	transform:rotate(-135deg);
+  	float: left;
+  	margin-top: -21px;
+  	margin-left: -47px;
+}
+
+/* Letter W */
+div.diagonalwleft{
+	width:73px;
+	height:20px;
+	transform:rotate(45deg);
+	margin-top:-20px;
+	margin-left:-7px;
+}
+div.diagonalwright{
+	width:73px;
+	height:20px;
+	transform:rotate(135deg);
+  	float: left;
+  	margin-top: -20px;
+  	margin-left: -47px;
+}
+
+
+div.diagonalwleft1{
+	width: 219px;
+	height:60px;
+	transform:rotate(45deg);
+	margin-top:-60px;
+	margin-left:-21px;
+}
+div.diagonalwright1{
+	width:219px;
+	height:60px;
+	transform:rotate(135deg);
+  	float: left;
+  	margin-top: -60px;
+  	margin-left: -141px;
+}
+
+
+
+/* Letter X */
+div.diagonalxleft{
+	width:130px;
+	height:20px;
+	transform:rotate(45deg);
+	margin-top:40px;
+	margin-left:-15px;
+}
+div.diagonalxright{
+	width:130px;
+	height:20px;
+	transform:rotate(-45deg);
+	margin-top:40px;
+	margin-left:-95px;
+}
+
+/* Letter Y */
+div.diagonalyleft{
+	width:73px;
+	height:20px;
+	transform:rotate(-45deg);
+	margin-top:20px;
+	margin-left:-47px;
+}
+div.diagonalyright{
+	width:73px;
+	height:20px;
+	transform:rotate(-135deg);
+  	float: left;
+  	margin-top: 20px;
+  	margin-left: -7px;
+}
+
+/* Letter Z */
+div.diagonalz{
+	width:130px;
+	height:20px;
+	transform:rotate(-45deg);
+	margin-top:0px;
+	margin-left:-55px;
+}
+/* letter pieces */
+
+.letter div {
+	border-radius: 20px;
+	background: white; 
+}
+
+.letter div.empty {
+	background: transparent;
+}
+
+.letter div.red {
+	border-radius: 20px;
+	background: red;
+	z-index: 3; 
+}
+
+.letter1 div {
+	border-radius: 40px;
+	background: white; 
+}
+
+.letter1 div.empty {
+	background: transparent;
+}
+
+.letter1 div.red {
+	border-radius: 40px;
+	background: red;
+	z-index: 3; 
+}
+
+
+/*Horizontal*/
+div.horizontaltop{
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+div.horizontalmid {
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+div.horizontalbot {
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+div.horizontalbothalf {
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+div.horizontaltophalf {
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+div.horizontalmidhalf {
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+div.horizontalmidhalfright {
+	background: white;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+div.horizontalbothalfleft {
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+div.horizontalmidhalfleft {
+	background: white;
+	grid-column-start:1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+div.pointmid {
+	background: white;
+	grid-column-start:2;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
+
+div.pointmidbot {
+	background: white;
+	grid-column-start:2;
+	grid-column-end: 2;
+	grid-row-start: 3;
+	grid-row-end: 3;
+}
+
+/*Vertical*/
+div.verticalleft{
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
+
+div.verticalright{
+	background: white;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
+
+div.verticalrighthalf{
+	background: white;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: span 2;
+}
+
+div.verticalmid{
+	background: white;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: span 3;
+}
+
+div.verticalrighthalfup{
+	background: white;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+}
+
+div.verticallefthalfup{
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+}
+
+div.verticalmidhalfdown{
+	background: white;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: span 2;
+}
+
+
+
+
+
+div.midhalftop{
+	background: white;
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+}
+
+
+div.righthalftop{
+	background: white;
+	grid-column-start: 3;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+}
+
+
+div.lefthalftop{
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+}
+
+div.midright{
+	background: white;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end:2;
+}
+
+div.lefthalfbot{
+	background: white;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 2;
+	grid-row-end: span 2;
+}
+
+
+
+
+
+
+
+
+
+
