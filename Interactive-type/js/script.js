@@ -2681,6 +2681,16 @@ $('document').ready(function(){
 
 
 
+<!-- LETTER E -->
+$('document').ready(function(){
+  $('#info').mouseover(function(){
+    var element = document.getElementById("P8");
+    element.classList.add("show");
+
+
+  }); 
+});
+
 
 
 

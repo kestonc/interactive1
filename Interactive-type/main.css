@@ -75,8 +75,8 @@ body {
 }
 
 
-p {
-color: white; 
+p.hidden {
+color: #2d2d2d; 
 padding: 20px;
 line-height: 40px;
 font-size: 40px;
@@ -85,11 +85,15 @@ font-style:normal;
 font-family: 'Gugi', cursive;
 }
 
-
-
-
-
-
+p.show {
+color: white; 
+padding: 20px;
+line-height: 40px;
+font-size: 40px;
+font-weight:normal;
+font-style:normal;
+font-family: 'Gugi', cursive;
+}
 
 div.information {
 	background: #2d2d2d;
